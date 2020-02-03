@@ -45,6 +45,7 @@ environment:
       PYTHON_VER: 36
       PYTHON_ROOT: c:\Python36-x64\
       CMAKE_GENERATOR: "Visual Studio 14 2015 Win64"
+
     - platform: win32
       configuration: Release
       ARCH: win32-msvc14
