@@ -18,6 +18,7 @@ add_definitions(-DBOOST_PYTHON_STATIC_LIB)
 add_definitions(-DBOOST_ALL_NO_LIB)
 add_definitions(-DZMQ_STATIC)
 add_definitions(-D_WIN32)
+add_definitions(-D__POSIX_NT__)
 
 if(CMAKE_SIZEOF_VOID_P EQUAL 8)
   set(PY_TARGET "64")
